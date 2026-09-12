@@ -1,0 +1,1486 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8110263262377223,
+        "FN": 6563.983333333334,
+        "FP": 4805.091666666666,
+        "IoU": 0.733206270596953,
+        "TN": 8864350.641666666,
+        "TP": 52280.28333333333,
+        "n_pred": 57085.375,
+        "n_ref": 58844.26666666666
+    },
+    "mean": {
+        "(1, 2, 3)": {
+            "Dice": 0.8988964202194873,
+            "FN": 9542.925,
+            "FP": 7347.275,
+            "IoU": 0.8255943262069787,
+            "TN": 8812850.375,
+            "TP": 98259.425,
+            "n_pred": 105606.7,
+            "n_ref": 107802.35
+        },
+        "(2, 3)": {
+            "Dice": 0.8371547659821623,
+            "FN": 6308.125,
+            "FP": 4943.825,
+            "IoU": 0.759700277437818,
+            "TN": 8878581.65,
+            "TP": 38166.4,
+            "n_pred": 43110.225,
+            "n_ref": 44474.525
+        },
+        "(3,)": {
+            "Dice": 0.6970277925115175,
+            "FN": 3840.9,
+            "FP": 2124.175,
+            "IoU": 0.6143242081460626,
+            "TN": 8901619.9,
+            "TP": 20415.025,
+            "n_pred": 22539.2,
+            "n_ref": 24255.925
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.918690340331042,
+                    "FN": 3207,
+                    "FP": 5984,
+                    "IoU": 0.849608927577969,
+                    "TN": 8866886,
+                    "TP": 51923,
+                    "n_pred": 57907,
+                    "n_ref": 55130
+                },
+                "(2, 3)": {
+                    "Dice": 0.9127580180435502,
+                    "FN": 715,
+                    "FP": 1132,
+                    "IoU": 0.8395168998175341,
+                    "TN": 8916491,
+                    "TP": 9662,
+                    "n_pred": 10794,
+                    "n_ref": 10377
+                },
+                "(3,)": {
+                    "Dice": 0.7780270582636482,
+                    "FN": 52,
+                    "FP": 3213,
+                    "IoU": 0.6366974518749304,
+                    "TN": 8919013,
+                    "TP": 5722,
+                    "n_pred": 8935,
+                    "n_ref": 5774
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_011.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_011.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.898390741052328,
+                    "FN": 26172,
+                    "FP": 7646,
+                    "IoU": 0.8155257717337349,
+                    "TN": 8744679,
+                    "TP": 149503,
+                    "n_pred": 157149,
+                    "n_ref": 175675
+                },
+                "(2, 3)": {
+                    "Dice": 0.8624761399536772,
+                    "FN": 27663,
+                    "FP": 1372,
+                    "IoU": 0.7582048783737644,
+                    "TN": 8807919,
+                    "TP": 91046,
+                    "n_pred": 92418,
+                    "n_ref": 118709
+                },
+                "(3,)": {
+                    "Dice": 0.7376162740154742,
+                    "FN": 6198,
+                    "FP": 8893,
+                    "IoU": 0.5843043274660497,
+                    "TN": 8891697,
+                    "TP": 21212,
+                    "n_pred": 30105,
+                    "n_ref": 27410
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_020.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_020.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.7351580163654847,
+                    "FN": 479,
+                    "FP": 47196,
+                    "IoU": 0.5812251853413443,
+                    "TN": 8814156,
+                    "TP": 66169,
+                    "n_pred": 113365,
+                    "n_ref": 66648
+                },
+                "(2, 3)": {
+                    "Dice": 0.926555225991475,
+                    "FN": 1828,
+                    "FP": 1911,
+                    "IoU": 0.863160591421461,
+                    "TN": 8900676,
+                    "TP": 23585,
+                    "n_pred": 25496,
+                    "n_ref": 25413
+                },
+                "(3,)": {
+                    "Dice": 0.8366346342420082,
+                    "FN": 3962,
+                    "FP": 1036,
+                    "IoU": 0.7191503708698584,
+                    "TN": 8910204,
+                    "TP": 12798,
+                    "n_pred": 13834,
+                    "n_ref": 16760
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_027.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_027.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9002537418088815,
+                    "FN": 11649,
+                    "FP": 8124,
+                    "IoU": 0.8186013228993697,
+                    "TN": 8818997,
+                    "TP": 89230,
+                    "n_pred": 97354,
+                    "n_ref": 100879
+                },
+                "(2, 3)": {
+                    "Dice": 0.8680565680128298,
+                    "FN": 4483,
+                    "FP": 5472,
+                    "IoU": 0.7668727460072128,
+                    "TN": 8885298,
+                    "TP": 32747,
+                    "n_pred": 38219,
+                    "n_ref": 37230
+                },
+                "(3,)": {
+                    "Dice": 0.8144714970176983,
+                    "FN": 5430,
+                    "FP": 4057,
+                    "IoU": 0.6870113160238858,
+                    "TN": 8897689,
+                    "TP": 20824,
+                    "n_pred": 24881,
+                    "n_ref": 26254
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_038.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_038.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9133637320238512,
+                    "FN": 11568,
+                    "FP": 1523,
+                    "IoU": 0.8405422853453841,
+                    "TN": 8845903,
+                    "TP": 69006,
+                    "n_pred": 70529,
+                    "n_ref": 80574
+                },
+                "(2, 3)": {
+                    "Dice": 0.9410428667204838,
+                    "FN": 3257,
+                    "FP": 1052,
+                    "IoU": 0.8886505762571709,
+                    "TN": 8889302,
+                    "TP": 34389,
+                    "n_pred": 35441,
+                    "n_ref": 37646
+                },
+                "(3,)": {
+                    "Dice": 0.8786858946413936,
+                    "FN": 5800,
+                    "FP": 1157,
+                    "IoU": 0.7836215476486689,
+                    "TN": 8895848,
+                    "TP": 25195,
+                    "n_pred": 26352,
+                    "n_ref": 30995
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_054.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_054.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8718143400901126,
+                    "FN": 11731,
+                    "FP": 1100,
+                    "IoU": 0.7727578634173987,
+                    "TN": 8871536,
+                    "TP": 43633,
+                    "n_pred": 44733,
+                    "n_ref": 55364
+                },
+                "(2, 3)": {
+                    "Dice": 0.921167341639101,
+                    "FN": 4203,
+                    "FP": 897,
+                    "IoU": 0.8538556322893085,
+                    "TN": 8893103,
+                    "TP": 29797,
+                    "n_pred": 30694,
+                    "n_ref": 34000
+                },
+                "(3,)": {
+                    "Dice": 0.8606485179950429,
+                    "FN": 4120,
+                    "FP": 2683,
+                    "IoU": 0.7553845600661608,
+                    "TN": 8900189,
+                    "TP": 21008,
+                    "n_pred": 23691,
+                    "n_ref": 25128
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_056.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_056.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9181902514061601,
+                    "FN": 5422,
+                    "FP": 1545,
+                    "IoU": 0.8487539076068079,
+                    "TN": 8881936,
+                    "TP": 39097,
+                    "n_pred": 40642,
+                    "n_ref": 44519
+                },
+                "(2, 3)": {
+                    "Dice": 0.9359436082125158,
+                    "FN": 1726,
+                    "FP": 355,
+                    "IoU": 0.8795996297153437,
+                    "TN": 8910716,
+                    "TP": 15203,
+                    "n_pred": 15558,
+                    "n_ref": 16929
+                },
+                "(3,)": {
+                    "Dice": 0.8239552484369859,
+                    "FN": 1948,
+                    "FP": 1262,
+                    "IoU": 0.7006155567991047,
+                    "TN": 8917278,
+                    "TP": 7512,
+                    "n_pred": 8774,
+                    "n_ref": 9460
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_073.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_073.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.5792178057027235,
+                    "FN": 9874,
+                    "FP": 5931,
+                    "IoU": 0.4076752988794363,
+                    "TN": 8901317,
+                    "TP": 10878,
+                    "n_pred": 16809,
+                    "n_ref": 20752
+                },
+                "(2, 3)": {
+                    "Dice": 0.21635220125786164,
+                    "FN": 475,
+                    "FP": 148,
+                    "IoU": 0.12129760225669958,
+                    "TN": 8927291,
+                    "TP": 86,
+                    "n_pred": 234,
+                    "n_ref": 561
+                },
+                "(3,)": {
+                    "Dice": 0.42729970326409494,
+                    "FN": 34,
+                    "FP": 159,
+                    "IoU": 0.27169811320754716,
+                    "TN": 8927735,
+                    "TP": 72,
+                    "n_pred": 231,
+                    "n_ref": 106
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_086.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_086.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9449823100936524,
+                    "FN": 1700,
+                    "FP": 4909,
+                    "IoU": 0.8957028106112014,
+                    "TN": 8864633,
+                    "TP": 56758,
+                    "n_pred": 61667,
+                    "n_ref": 58458
+                },
+                "(2, 3)": {
+                    "Dice": 0.9457869577198175,
+                    "FN": 3427,
+                    "FP": 1098,
+                    "IoU": 0.897149740885535,
+                    "TN": 8884004,
+                    "TP": 39471,
+                    "n_pred": 40569,
+                    "n_ref": 42898
+                },
+                "(3,)": {
+                    "Dice": 0.9440329989687822,
+                    "FN": 2463,
+                    "FP": 1119,
+                    "IoU": 0.8939985795454546,
+                    "TN": 8894208,
+                    "TP": 30210,
+                    "n_pred": 31329,
+                    "n_ref": 32673
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_092.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_092.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9618788330371983,
+                    "FN": 1866,
+                    "FP": 11436,
+                    "IoU": 0.9265573842900602,
+                    "TN": 8746879,
+                    "TP": 167819,
+                    "n_pred": 179255,
+                    "n_ref": 169685
+                },
+                "(2, 3)": {
+                    "Dice": 0.9546082930460461,
+                    "FN": 452,
+                    "FP": 5097,
+                    "IoU": 0.9131584713136561,
+                    "TN": 8864102,
+                    "TP": 58349,
+                    "n_pred": 63446,
+                    "n_ref": 58801
+                },
+                "(3,)": {
+                    "Dice": 0.9442932167505294,
+                    "FN": 1569,
+                    "FP": 2483,
+                    "IoU": 0.894465425185571,
+                    "TN": 8889605,
+                    "TP": 34343,
+                    "n_pred": 36826,
+                    "n_ref": 35912
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_104.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_104.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9446664965841767,
+                    "FN": 986,
+                    "FP": 2918,
+                    "IoU": 0.8951355126379973,
+                    "TN": 8890771,
+                    "TP": 33325,
+                    "n_pred": 36243,
+                    "n_ref": 34311
+                },
+                "(2, 3)": {
+                    "Dice": 0.9667921944539541,
+                    "FN": 252,
+                    "FP": 427,
+                    "IoU": 0.9357190192180251,
+                    "TN": 8917437,
+                    "TP": 9884,
+                    "n_pred": 10311,
+                    "n_ref": 10136
+                },
+                "(3,)": {
+                    "Dice": 0.9588254069581871,
+                    "FN": 529,
+                    "FP": 245,
+                    "IoU": 0.9209074187614961,
+                    "TN": 8918214,
+                    "TP": 9012,
+                    "n_pred": 9257,
+                    "n_ref": 9541
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_107.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_107.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.818584358078716,
+                    "FN": 670,
+                    "FP": 13301,
+                    "IoU": 0.6928843067859577,
+                    "TN": 8882509,
+                    "TP": 31520,
+                    "n_pred": 44821,
+                    "n_ref": 32190
+                },
+                "(2, 3)": {
+                    "Dice": 0.9465591599474967,
+                    "FN": 173,
+                    "FP": 682,
+                    "IoU": 0.8985404058383767,
+                    "TN": 8919573,
+                    "TP": 7572,
+                    "n_pred": 8254,
+                    "n_ref": 7745
+                },
+                "(3,)": {
+                    "Dice": 0.8965369357778492,
+                    "FN": 285,
+                    "FP": 680,
+                    "IoU": 0.812475709288768,
+                    "TN": 8922854,
+                    "TP": 4181,
+                    "n_pred": 4861,
+                    "n_ref": 4466
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_119.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_119.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9495679290239698,
+                    "FN": 8017,
+                    "FP": 5762,
+                    "IoU": 0.9039784249367592,
+                    "TN": 8784501,
+                    "TP": 129720,
+                    "n_pred": 135482,
+                    "n_ref": 137737
+                },
+                "(2, 3)": {
+                    "Dice": 0.8825950745283151,
+                    "FN": 5846,
+                    "FP": 2511,
+                    "IoU": 0.7898614498730167,
+                    "TN": 8888231,
+                    "TP": 31412,
+                    "n_pred": 33923,
+                    "n_ref": 37258
+                },
+                "(3,)": {
+                    "Dice": 0.8789234070716592,
+                    "FN": 3807,
+                    "FP": 2230,
+                    "IoU": 0.783999427528713,
+                    "TN": 8900051,
+                    "TP": 21912,
+                    "n_pred": 24142,
+                    "n_ref": 25719
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_123.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_123.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9080293446735374,
+                    "FN": 8831,
+                    "FP": 5724,
+                    "IoU": 0.831551049695623,
+                    "TN": 8841594,
+                    "TP": 71851,
+                    "n_pred": 77575,
+                    "n_ref": 80682
+                },
+                "(2, 3)": {
+                    "Dice": 0.8798447118375051,
+                    "FN": 4245,
+                    "FP": 6959,
+                    "IoU": 0.7854667304930589,
+                    "TN": 8875775,
+                    "TP": 41021,
+                    "n_pred": 47980,
+                    "n_ref": 45266
+                },
+                "(3,)": {
+                    "Dice": 0.8021672279982428,
+                    "FN": 4659,
+                    "FP": 2096,
+                    "IoU": 0.669682151589242,
+                    "TN": 8907550,
+                    "TP": 13695,
+                    "n_pred": 15791,
+                    "n_ref": 18354
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_134.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_134.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9339041766487693,
+                    "FN": 5534,
+                    "FP": 21807,
+                    "IoU": 0.8760039728071329,
+                    "TN": 8707501,
+                    "TP": 193158,
+                    "n_pred": 214965,
+                    "n_ref": 198692
+                },
+                "(2, 3)": {
+                    "Dice": 0.942323806304879,
+                    "FN": 5776,
+                    "FP": 2415,
+                    "IoU": 0.8909378994461014,
+                    "TN": 8852896,
+                    "TP": 66913,
+                    "n_pred": 69328,
+                    "n_ref": 72689
+                },
+                "(3,)": {
+                    "Dice": 0.9444366896846185,
+                    "FN": 3480,
+                    "FP": 3287,
+                    "IoU": 0.8947229223062323,
+                    "TN": 8863722,
+                    "TP": 57511,
+                    "n_pred": 60798,
+                    "n_ref": 60991
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_144.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_144.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.6655482520122883,
+                    "FN": 71788,
+                    "FP": 6162,
+                    "IoU": 0.49874283803509767,
+                    "TN": 8772491,
+                    "TP": 77559,
+                    "n_pred": 83721,
+                    "n_ref": 149347
+                },
+                "(2, 3)": {
+                    "Dice": 0.04634410935126926,
+                    "FN": 35184,
+                    "FP": 8770,
+                    "IoU": 0.023721736040158144,
+                    "TN": 8882978,
+                    "TP": 1068,
+                    "n_pred": 9838,
+                    "n_ref": 36252
+                },
+                "(3,)": {
+                    "Dice": 0.07990081278413004,
+                    "FN": 18970,
+                    "FP": 1067,
+                    "IoU": 0.0416128569378677,
+                    "TN": 8907093,
+                    "TP": 870,
+                    "n_pred": 1937,
+                    "n_ref": 19840
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_148.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_148.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9337056868199326,
+                    "FN": 17217,
+                    "FP": 872,
+                    "IoU": 0.8756547561763615,
+                    "TN": 8782526,
+                    "TP": 127385,
+                    "n_pred": 128257,
+                    "n_ref": 144602
+                },
+                "(2, 3)": {
+                    "Dice": 0.9630321367649073,
+                    "FN": 2469,
+                    "FP": 500,
+                    "IoU": 0.9287000792488173,
+                    "TN": 8886359,
+                    "TP": 38672,
+                    "n_pred": 39172,
+                    "n_ref": 41141
+                },
+                "(3,)": {
+                    "Dice": 0.9146059158552269,
+                    "FN": 4421,
+                    "FP": 227,
+                    "IoU": 0.842648701716375,
+                    "TN": 8898461,
+                    "TP": 24891,
+                    "n_pred": 25118,
+                    "n_ref": 29312
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_155.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_155.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8007041736961784,
+                    "FN": 8060,
+                    "FP": 91,
+                    "IoU": 0.6676452599388379,
+                    "TN": 8903475,
+                    "TP": 16374,
+                    "n_pred": 16465,
+                    "n_ref": 24434
+                },
+                "(2, 3)": {
+                    "Dice": 0.8195311975283767,
+                    "FN": 2610,
+                    "FP": 77,
+                    "IoU": 0.6942421483841602,
+                    "TN": 8919212,
+                    "TP": 6101,
+                    "n_pred": 6178,
+                    "n_ref": 8711
+                },
+                "(3,)": {
+                    "Dice": 0.6682852807283763,
+                    "FN": 1059,
+                    "FP": 2220,
+                    "IoU": 0.5018231540565178,
+                    "TN": 8921418,
+                    "TP": 3303,
+                    "n_pred": 5523,
+                    "n_ref": 4362
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_159.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_159.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.943768097892082,
+                    "FN": 11823,
+                    "FP": 6237,
+                    "IoU": 0.8935235680806533,
+                    "TN": 8758385,
+                    "TP": 151555,
+                    "n_pred": 157792,
+                    "n_ref": 163378
+                },
+                "(2, 3)": {
+                    "Dice": 0.9315938673434555,
+                    "FN": 7401,
+                    "FP": 6426,
+                    "IoU": 0.871947323090601,
+                    "TN": 8820021,
+                    "TP": 94152,
+                    "n_pred": 100578,
+                    "n_ref": 101553
+                },
+                "(3,)": {
+                    "Dice": 0.875839129936108,
+                    "FN": 9631,
+                    "FP": 8772,
+                    "IoU": 0.7791048000864231,
+                    "TN": 8844689,
+                    "TP": 64908,
+                    "n_pred": 73680,
+                    "n_ref": 74539
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_168.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_168.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9161263098670792,
+                    "FN": 1670,
+                    "FP": 10256,
+                    "IoU": 0.845233460510265,
+                    "TN": 8850942,
+                    "TP": 65132,
+                    "n_pred": 75388,
+                    "n_ref": 66802
+                },
+                "(2, 3)": {
+                    "Dice": 0.9301430867743551,
+                    "FN": 1386,
+                    "FP": 3916,
+                    "IoU": 0.8694088669950739,
+                    "TN": 8887400,
+                    "TP": 35298,
+                    "n_pred": 39214,
+                    "n_ref": 36684
+                },
+                "(3,)": {
+                    "Dice": 0.8904767381678073,
+                    "FN": 4050,
+                    "FP": 3568,
+                    "IoU": 0.8025759970974681,
+                    "TN": 8889413,
+                    "TP": 30969,
+                    "n_pred": 34537,
+                    "n_ref": 35019
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_179.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_179.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9638892761181587,
+                    "FN": 9943,
+                    "FP": 3268,
+                    "IoU": 0.9302956275820586,
+                    "TN": 8738471,
+                    "TP": 176318,
+                    "n_pred": 179586,
+                    "n_ref": 186261
+                },
+                "(2, 3)": {
+                    "Dice": 0.967271221960622,
+                    "FN": 864,
+                    "FP": 2931,
+                    "IoU": 0.9366168954805091,
+                    "TN": 8868126,
+                    "TP": 56079,
+                    "n_pred": 59010,
+                    "n_ref": 56943
+                },
+                "(3,)": {
+                    "Dice": 0.9405086378260958,
+                    "FN": 3854,
+                    "FP": 1952,
+                    "IoU": 0.8876982591876209,
+                    "TN": 8876300,
+                    "TP": 45894,
+                    "n_pred": 47846,
+                    "n_ref": 49748
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_183.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_183.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.7641668791432943,
+                    "FN": 19751,
+                    "FP": 9847,
+                    "IoU": 0.6183414785109154,
+                    "TN": 8850449,
+                    "TP": 47953,
+                    "n_pred": 57800,
+                    "n_ref": 67704
+                },
+                "(2, 3)": {
+                    "Dice": 0.8812787922517622,
+                    "FN": 709,
+                    "FP": 1430,
+                    "IoU": 0.7877555070450486,
+                    "TN": 8917922,
+                    "TP": 7939,
+                    "n_pred": 9369,
+                    "n_ref": 8648
+                },
+                "(3,)": {
+                    "Dice": 0.8159722222222222,
+                    "FN": 1289,
+                    "FP": 1255,
+                    "IoU": 0.6891495601173021,
+                    "TN": 8919816,
+                    "TP": 5640,
+                    "n_pred": 6895,
+                    "n_ref": 6929
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_188.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_188.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9434888001659235,
+                    "FN": 5236,
+                    "FP": 12202,
+                    "IoU": 0.8930229990123123,
+                    "TN": 8764993,
+                    "TP": 145569,
+                    "n_pred": 157771,
+                    "n_ref": 150805
+                },
+                "(2, 3)": {
+                    "Dice": 0.9460420221895155,
+                    "FN": 6966,
+                    "FP": 4069,
+                    "IoU": 0.8976088630733114,
+                    "TN": 8820227,
+                    "TP": 96738,
+                    "n_pred": 100807,
+                    "n_ref": 103704
+                },
+                "(3,)": {
+                    "Dice": 0.943845228093281,
+                    "FN": 4621,
+                    "FP": 5271,
+                    "IoU": 0.8936618507051943,
+                    "TN": 8834976,
+                    "TP": 83132,
+                    "n_pred": 88403,
+                    "n_ref": 87753
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_191.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_191.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9568920138366672,
+                    "FN": 8353,
+                    "FP": 819,
+                    "IoU": 0.9173470307290259,
+                    "TN": 8817030,
+                    "TP": 101798,
+                    "n_pred": 102617,
+                    "n_ref": 110151
+                },
+                "(2, 3)": {
+                    "Dice": 0.9649310411011489,
+                    "FN": 2071,
+                    "FP": 487,
+                    "IoU": 0.9322384105960265,
+                    "TN": 8890250,
+                    "TP": 35192,
+                    "n_pred": 35679,
+                    "n_ref": 37263
+                },
+                "(3,)": {
+                    "Dice": 0.9251458885941645,
+                    "FN": 2436,
+                    "FP": 386,
+                    "IoU": 0.8607176348650116,
+                    "TN": 8907739,
+                    "TP": 17439,
+                    "n_pred": 17825,
+                    "n_ref": 19875
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_192.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_192.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9715697823450969,
+                    "FN": 6637,
+                    "FP": 3234,
+                    "IoU": 0.9447114307478603,
+                    "TN": 8749464,
+                    "TP": 168665,
+                    "n_pred": 171899,
+                    "n_ref": 175302
+                },
+                "(2, 3)": {
+                    "Dice": 0.960552268244576,
+                    "FN": 2792,
+                    "FP": 448,
+                    "IoU": 0.9240986717267552,
+                    "TN": 8885313,
+                    "TP": 39447,
+                    "n_pred": 39895,
+                    "n_ref": 42239
+                },
+                "(3,)": {
+                    "Dice": 0.9002576038324219,
+                    "FN": 6368,
+                    "FP": 253,
+                    "IoU": 0.8186077093778252,
+                    "TN": 8891499,
+                    "TP": 29880,
+                    "n_pred": 30133,
+                    "n_ref": 36248
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_201.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_201.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9491058216196427,
+                    "FN": 11888,
+                    "FP": 4655,
+                    "IoU": 0.9031411926578647,
+                    "TN": 8757205,
+                    "TP": 154252,
+                    "n_pred": 158907,
+                    "n_ref": 166140
+                },
+                "(2, 3)": {
+                    "Dice": 0.9039087433248018,
+                    "FN": 10182,
+                    "FP": 1982,
+                    "IoU": 0.824665590405904,
+                    "TN": 8858624,
+                    "TP": 57212,
+                    "n_pred": 59194,
+                    "n_ref": 67394
+                },
+                "(3,)": {
+                    "Dice": 0.8997632202052092,
+                    "FN": 1736,
+                    "FP": 6011,
+                    "IoU": 0.8177905308464849,
+                    "TN": 8885483,
+                    "TP": 34770,
+                    "n_pred": 40781,
+                    "n_ref": 36506
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_208.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_208.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.925648669801232,
+                    "FN": 2750,
+                    "FP": 9695,
+                    "IoU": 0.8615884243657758,
+                    "TN": 8838087,
+                    "TP": 77468,
+                    "n_pred": 87163,
+                    "n_ref": 80218
+                },
+                "(2, 3)": {
+                    "Dice": 0.9456764162365385,
+                    "FN": 982,
+                    "FP": 2428,
+                    "IoU": 0.8969508325526578,
+                    "TN": 8894909,
+                    "TP": 29681,
+                    "n_pred": 32109,
+                    "n_ref": 30663
+                },
+                "(3,)": {
+                    "Dice": 0.8926541014366931,
+                    "FN": 2944,
+                    "FP": 889,
+                    "IoU": 0.8061203844208397,
+                    "TN": 8908230,
+                    "TP": 15937,
+                    "n_pred": 16826,
+                    "n_ref": 18881
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_211.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_211.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9683536898193568,
+                    "FN": 2623,
+                    "FP": 4409,
+                    "IoU": 0.9386489151013357,
+                    "TN": 8813381,
+                    "TP": 107587,
+                    "n_pred": 111996,
+                    "n_ref": 110210
+                },
+                "(2, 3)": {
+                    "Dice": 0.9469425260100187,
+                    "FN": 1861,
+                    "FP": 1719,
+                    "IoU": 0.8992315703549413,
+                    "TN": 8892473,
+                    "TP": 31947,
+                    "n_pred": 33666,
+                    "n_ref": 33808
+                },
+                "(3,)": {
+                    "Dice": 0.9287139362606478,
+                    "FN": 2293,
+                    "FP": 1816,
+                    "IoU": 0.866914979757085,
+                    "TN": 8897125,
+                    "TP": 26766,
+                    "n_pred": 28582,
+                    "n_ref": 29059
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_214.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_214.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9530779347503288,
+                    "FN": 3949,
+                    "FP": 15959,
+                    "IoU": 0.9103618754305629,
+                    "TN": 8705907,
+                    "TP": 202185,
+                    "n_pred": 218144,
+                    "n_ref": 206134
+                },
+                "(2, 3)": {
+                    "Dice": 0.9495454722458992,
+                    "FN": 10492,
+                    "FP": 1169,
+                    "IoU": 0.9039377213938545,
+                    "TN": 8806610,
+                    "TP": 109729,
+                    "n_pred": 110898,
+                    "n_ref": 120221
+                },
+                "(3,)": {
+                    "Dice": 0.8717728484824273,
+                    "FN": 23962,
+                    "FP": 1716,
+                    "IoU": 0.7726926685905494,
+                    "TN": 8815034,
+                    "TP": 87288,
+                    "n_pred": 89004,
+                    "n_ref": 111250
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_225.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_225.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.896248538412798,
+                    "FN": 31542,
+                    "FP": 224,
+                    "IoU": 0.8120021305557199,
+                    "TN": 8759030,
+                    "TP": 137204,
+                    "n_pred": 137428,
+                    "n_ref": 168746
+                },
+                "(2, 3)": {
+                    "Dice": 0.6486731201981332,
+                    "FN": 13146,
+                    "FP": 13239,
+                    "IoU": 0.4800268017263465,
+                    "TN": 8877257,
+                    "TP": 24358,
+                    "n_pred": 37597,
+                    "n_ref": 37504
+                },
+                "(3,)": {
+                    "Dice": 0.6643035315741106,
+                    "FN": 839,
+                    "FP": 4275,
+                    "IoU": 0.49734617652840574,
+                    "TN": 8917826,
+                    "TP": 5060,
+                    "n_pred": 9335,
+                    "n_ref": 5899
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_240.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_240.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9385947535765727,
+                    "FN": 14342,
+                    "FP": 3947,
+                    "IoU": 0.8842944358333596,
+                    "TN": 8769935,
+                    "TP": 139776,
+                    "n_pred": 143723,
+                    "n_ref": 154118
+                },
+                "(2, 3)": {
+                    "Dice": 0.8366224522808152,
+                    "FN": 3699,
+                    "FP": 2866,
+                    "IoU": 0.7191323692992213,
+                    "TN": 8904626,
+                    "TP": 16809,
+                    "n_pred": 19675,
+                    "n_ref": 20508
+                },
+                "(3,)": {
+                    "Dice": 0.787865901197817,
+                    "FN": 3407,
+                    "FP": 2579,
+                    "IoU": 0.6499824581920243,
+                    "TN": 8910898,
+                    "TP": 11116,
+                    "n_pred": 13695,
+                    "n_ref": 14523
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_243.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_243.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9210417664448152,
+                    "FN": 3538,
+                    "FP": 10805,
+                    "IoU": 0.8536398702014327,
+                    "TN": 8830002,
+                    "TP": 83655,
+                    "n_pred": 94460,
+                    "n_ref": 87193
+                },
+                "(2, 3)": {
+                    "Dice": 0.9381921275629278,
+                    "FN": 6029,
+                    "FP": 1863,
+                    "IoU": 0.8835799318473498,
+                    "TN": 8860211,
+                    "TP": 59897,
+                    "n_pred": 61760,
+                    "n_ref": 65926
+                },
+                "(3,)": {
+                    "Dice": 0.8686747675280962,
+                    "FN": 5891,
+                    "FP": 3317,
+                    "IoU": 0.7678382330694368,
+                    "TN": 8888338,
+                    "TP": 30454,
+                    "n_pred": 33771,
+                    "n_ref": 36345
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_248.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_248.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8952439893207447,
+                    "FN": 1905,
+                    "FP": 12652,
+                    "IoU": 0.8103544861188916,
+                    "TN": 8851241,
+                    "TP": 62202,
+                    "n_pred": 74854,
+                    "n_ref": 64107
+                },
+                "(2, 3)": {
+                    "Dice": 0.24230125989519455,
+                    "FN": 89,
+                    "FP": 33890,
+                    "IoU": 0.13785141581244292,
+                    "TN": 8888588,
+                    "TP": 5433,
+                    "n_pred": 39323,
+                    "n_ref": 5522
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 686,
+                    "IoU": 0.0,
+                    "TN": 8927314,
+                    "TP": 0,
+                    "n_pred": 686,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_262.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_262.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9546191205676721,
+                    "FN": 12538,
+                    "FP": 4851,
+                    "IoU": 0.9131782868326975,
+                    "TN": 8727716,
+                    "TP": 182895,
+                    "n_pred": 187746,
+                    "n_ref": 195433
+                },
+                "(2, 3)": {
+                    "Dice": 0.859546233149305,
+                    "FN": 10493,
+                    "FP": 11564,
+                    "IoU": 0.7536879250466225,
+                    "TN": 8838451,
+                    "TP": 67492,
+                    "n_pred": 79056,
+                    "n_ref": 77985
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 656,
+                    "IoU": 0.0,
+                    "TN": 8927344,
+                    "TP": 0,
+                    "n_pred": 656,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_272.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_272.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.964049285412695,
+                    "FN": 3179,
+                    "FP": 10870,
+                    "IoU": 0.9305937742383298,
+                    "TN": 8725583,
+                    "TP": 188368,
+                    "n_pred": 199238,
+                    "n_ref": 191547
+                },
+                "(2, 3)": {
+                    "Dice": 0.641781810682615,
+                    "FN": 252,
+                    "FP": 46647,
+                    "IoU": 0.47251746128150623,
+                    "TN": 8839089,
+                    "TP": 42012,
+                    "n_pred": 88659,
+                    "n_ref": 42264
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1587,
+                    "IoU": 0.0,
+                    "TN": 8926413,
+                    "TP": 0,
+                    "n_pred": 1587,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_289.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_289.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8953538088790708,
+                    "FN": 164,
+                    "FP": 5710,
+                    "IoU": 0.8105344644066703,
+                    "TN": 8896997,
+                    "TP": 25129,
+                    "n_pred": 30839,
+                    "n_ref": 25293
+                },
+                "(2, 3)": {
+                    "Dice": 0.6702604444165857,
+                    "FN": 75,
+                    "FP": 10446,
+                    "IoU": 0.5040539266522108,
+                    "TN": 8906786,
+                    "TP": 10693,
+                    "n_pred": 21139,
+                    "n_ref": 10768
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 518,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927482,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 518
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_295.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_295.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.956133102562671,
+                    "FN": 12590,
+                    "FP": 3124,
+                    "IoU": 0.915953082629555,
+                    "TN": 8741033,
+                    "TP": 171253,
+                    "n_pred": 174377,
+                    "n_ref": 183843
+                },
+                "(2, 3)": {
+                    "Dice": 0.8090962863612218,
+                    "FN": 44114,
+                    "FP": 6557,
+                    "IoU": 0.679396895899373,
+                    "TN": 8769951,
+                    "TP": 107378,
+                    "n_pred": 113935,
+                    "n_ref": 151492
+                },
+                "(3,)": {
+                    "Dice": 0.5393016713552871,
+                    "FN": 10350,
+                    "FP": 786,
+                    "IoU": 0.36920811147615273,
+                    "TN": 8910346,
+                    "TP": 6518,
+                    "n_pred": 7304,
+                    "n_ref": 16868
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_327.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_327.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8973423922700082,
+                    "FN": 9907,
+                    "FP": 2226,
+                    "IoU": 0.8137996654440539,
+                    "TN": 8862839,
+                    "TP": 53028,
+                    "n_pred": 55254,
+                    "n_ref": 62935
+                },
+                "(2, 3)": {
+                    "Dice": 0.7968286432097362,
+                    "FN": 14224,
+                    "FP": 1869,
+                    "IoU": 0.6622736144047344,
+                    "TN": 8880349,
+                    "TP": 31558,
+                    "n_pred": 33427,
+                    "n_ref": 45782
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 746,
+                    "IoU": 0.0,
+                    "TN": 8927254,
+                    "TP": 0,
+                    "n_pred": 746,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_329.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_329.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9604727856961657,
+                    "FN": 2512,
+                    "FP": 1695,
+                    "IoU": 0.9239515545914678,
+                    "TN": 8872680,
+                    "TP": 51113,
+                    "n_pred": 52808,
+                    "n_ref": 53625
+                },
+                "(2, 3)": {
+                    "Dice": 0.8239152548318075,
+                    "FN": 9235,
+                    "FP": 805,
+                    "IoU": 0.7005577261475141,
+                    "TN": 8894471,
+                    "TP": 23489,
+                    "n_pred": 24294,
+                    "n_ref": 32724
+                },
+                "(3,)": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 254,
+                    "IoU": 0.0,
+                    "TN": 8927746,
+                    "TP": 0,
+                    "n_pred": 254,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_330.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_330.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8240194608284181,
+                    "FN": 106,
+                    "FP": 5175,
+                    "IoU": 0.7007084159818645,
+                    "TN": 8910355,
+                    "TP": 12364,
+                    "n_pred": 17539,
+                    "n_ref": 12470
+                },
+                "(2, 3)": {
+                    "Dice": 0.9593179377013964,
+                    "FN": 479,
+                    "FP": 127,
+                    "IoU": 0.921816539801316,
+                    "TN": 8920249,
+                    "TP": 7145,
+                    "n_pred": 7272,
+                    "n_ref": 7624
+                },
+                "(3,)": {
+                    "Dice": 0.9466695532943639,
+                    "FN": 661,
+                    "FP": 78,
+                    "IoU": 0.8987393806522335,
+                    "TN": 8920702,
+                    "TP": 6559,
+                    "n_pred": 6637,
+                    "n_ref": 7220
+                }
+            },
+            "prediction_file": "/content/nnUNet/nnUNet_results/Dataset501_BraTS2020/nnUNetTrainer_50epochs__nnUNetResEncL_Colab__3d_fullres/crossval_results_folds_0_1/BraTS20_Training_341.nii.gz",
+            "reference_file": "/content/nnUNet/nnUNet_raw/Dataset501_BraTS2020/labelsTr/BraTS20_Training_341.nii.gz"
+        }
+    ]
+}
