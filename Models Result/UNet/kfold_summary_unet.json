@@ -1,0 +1,26 @@
+[
+  {
+    "fold": 0,
+    "epoch": 44,
+    "best_val_dice": 0.7527639269828796,
+    "val_loss": 0.458281846344471,
+    "val_reg_dice": [
+      0.851898193359375,
+      0.7851184606552124,
+      0.6212750673294067
+    ],
+    "best_model_path": "C:\\MMU\\MSc Project\\Models Results\\UNet\\best_model_fold0.pth"
+  },
+  {
+    "fold": 1,
+    "epoch": 45,
+    "best_val_dice": 0.7634494304656982,
+    "val_loss": 0.46891282945871354,
+    "val_reg_dice": [
+      0.8507875204086304,
+      0.7831364870071411,
+      0.656424343585968
+    ],
+    "best_model_path": "C:\\MMU\\MSc Project\\Models Results\\UNet\\best_model_fold1.pth"
+  }
+]
